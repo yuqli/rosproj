@@ -8,7 +8,7 @@ def load_aiml(xml_file):
     print data_path
     os.chdir(data_path)
 
-    if os.paht.isfile("standard.brn"):
+    if os.path.isfile("standard.brn"):
         mybot.bootstrap(brainFile="standard.brn")
     else:
         mybot.bootstrap(learnFile=xml_file, commands="LOAD AIML B")
