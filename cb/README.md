@@ -2,4 +2,5 @@ This folder contains a project to build chatbot using ROS and PyAIML. Tutorial h
 
 Progress bar:
 - [X] Get the system running.
+
 Update 20181118: the system is ok. one problem with importing gi, which is required for using sound_play node. contacted the maintainer and wait for reply. project put on hold now.
