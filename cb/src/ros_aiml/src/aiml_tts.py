@@ -1,6 +1,6 @@
-#!usr/bin/python2
+#!/usr/bin/python2
 
-import rospy, os sys
+import rospy, os, sys
 from sound_play.msg import SoundRequest
 from sound_play.libsoundplay import SoundClient
 from std_msgs.msg import String

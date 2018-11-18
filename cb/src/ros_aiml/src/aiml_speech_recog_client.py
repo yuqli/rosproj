@@ -1,4 +1,4 @@
-#!usr/bin/python2
+#!/usr/bin/python2
 import rospy
 from std_msgs.msg import String
 rospy.init_node('aiml_speech_recog_client')
