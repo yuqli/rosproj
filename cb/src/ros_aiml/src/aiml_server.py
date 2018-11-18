@@ -11,7 +11,7 @@ def load_aiml(xml_file):
     if os.path.isfile("standard.brn"):
         mybot.bootstrap(brainFile="standard.brn")
     else:
-        mybot.bootstrap(learnFile=xml_file, commands="LOAD AIML B")
+        mybot.bootstrap(learnFiles=xml_file, commands="LOAD AIML B")
         mybot.saveBrain("standard.brn")
 
 def callback(data):
@@ -23,7 +23,7 @@ def callback(data):
 
 def listener():
     rospy.loginfo("Starting ROS AIML server")
-    rospy.subscriber("chatter", Sring, callback)
+    rospy.Subscriber("chatter", String, callback)
     rospy.spin()
 
 if __name__=='__main__':
