@@ -1,0 +1,2 @@
+ros_aiml
+-DCATKIN_DEVEL_PREFIX=/media/yuqiong/DATA/rosproj/cb/devel -DCMAKE_INSTALL_PREFIX=/media/yuqiong/DATA/rosproj/cb/install -G Unix Makefiles

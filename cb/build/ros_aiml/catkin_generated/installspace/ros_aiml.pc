@@ -1,0 +1,8 @@
+prefix=/media/yuqiong/DATA/rosproj/cb/install
+
+Name: ros_aiml
+Description: Description of ros_aiml
+Version: 0.0.0
+Cflags: 
+Libs: -L/media/yuqiong/DATA/rosproj/cb/install/lib 
+Requires: 
