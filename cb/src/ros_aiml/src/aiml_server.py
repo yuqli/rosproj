@@ -3,6 +3,18 @@
 ## Yuqiong Li
 
 import rospy
+import aiml
+import os
+import sys
+
+from std_msgs.msg import String
+
+
+rospy.init_node('aiml_server')
+mybot = aiml.Kernel()
+response_publisher = rospy.Publisher('response',String,queue_size=10)
+
+
 def load_aiml(xml_file):
     data_path = rospy.get_param("aiml_path")
     print data_path
