@@ -1,4 +1,4 @@
-#!usr/bin/pytnon2
+#!usr/bin/python2
 import rospy
 from std_msgs.msg import String
 pub = rospy.Publisher('chatter', String, queue_size=10)

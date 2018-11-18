@@ -1,6 +1,6 @@
 <launch>
   <param name = 'aiml_path'
-    value = "/media/yuqiong/DATA/rosproj/cb/ros_aiml/data" />
+    value = "/media/yuqiong/DATA/rosproj/cb/src/ros_aiml/data" />
   <node name="aiml_server" pkg="ros_aiml" type="aiml_server.py"
     output = "screen">
   </node>
