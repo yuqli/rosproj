@@ -1,0 +1,2 @@
+learning_tf
+-DCATKIN_DEVEL_PREFIX=/media/yuqiong/DATA/rosproj/learning_tf/devel -DCMAKE_INSTALL_PREFIX=/media/yuqiong/DATA/rosproj/learning_tf/install -G Unix Makefiles

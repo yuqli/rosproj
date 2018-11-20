@@ -1,0 +1,8 @@
+prefix=/media/yuqiong/DATA/rosproj/tf_tutorials/devel
+
+Name: learning_tf
+Description: Description of learning_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/media/yuqiong/DATA/rosproj/tf_tutorials/devel/lib 
+Requires: 
